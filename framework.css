@@ -1,0 +1,171 @@
+/*start position*/
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/*end position*/
+/*start display*/
+.d-flex {
+    display: flex;
+}
+.f-dir-col {
+    flex-direction: column;
+}
+.jc-center {
+    justify-content: center;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.ai-center {
+    align-items: center;
+}
+.d-grid {
+    display: grid;
+}
+.d-block {
+    display: block;
+}
+/*end display*/
+/*start width and height*/
+.w-100per {
+    width: 100%
+}
+.w-90per {
+    width: 90%;
+}
+.w-50per {
+    width: 50%;
+}
+.w-45per {
+    width: 45%;
+}
+.w-35per {
+    width: 35%;
+}
+.h-100vh {
+    height: 100vh;
+}
+.h-100per {
+    height: 100%;
+}
+.h-50px {
+    height: 45px;
+}
+/*start width and height*/
+/*start padding and margin*/
+.p-20 {
+    padding: 20px;
+}
+.p-10 {
+    padding: 10px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-0 {
+    padding-bottom: 0;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mlr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+/*end padding and margin*/
+/*start border*/
+.brad-5 {
+    border-radius: 5px;
+}
+.brad-10 {
+    border-radius: 10px;
+}
+/*end border*/
+/*start text*/
+.tt-uper{
+    text-transform: uppercase;
+}
+.fw-bold {
+    font-weight: bold;
+}
+/*end text*/
+/*start h6 label*/
+.h6-label{
+    margin: 10px auto 10px 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: normal;
+    color: var(--main-color);
+}
+.h2-label {
+    text-transform: uppercase;
+    margin: 30px auto;
+    letter-spacing: 1px;;
+    font-size: 35px;;
+    font-weight: bold;
+    color: var(--main-color);
+}
+/*end h6 label*/
+/*start form*/
+.no-outline {
+    outline:none;
+}
+.no-border {
+    border:none;
+}
+.ph::placeholder {
+    text-transform: capitalize;
+    color: #999;
+    font-size: 17px
+}
+.submit-button {
+    display: block;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.submit-button:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+/*end form*/
+.formBox .container .box form .password,
+.formBox .container .box form .submit {
+    outline: none;
+    border: none;
+    border-radius: 10px;;
+    
+}
+.formBox .container .box form .username,
+.formBox .container .box form .password {
+    height: 50px;
+    padding: 10px;;
+    width: 90%;
+    margin: 0px auto ;
+    caret-color: var(--main-color);
+}
+
